@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Minha Lista de Contatos - React</h1>
+        <h1>Listas de Contatos</h1>
       </header>
       <main>
         <ul className="lista-contatos">
@@ -16,6 +16,9 @@ function App() {
           ))}
         </ul>
       </main>
+      <footer style={{ marginTop: '50px', color: '#666' }}>
+        <p>Atividade 7</p>
+      </footer>
     </div>
   );
 }
